@@ -1,0 +1,74 @@
+:root{
+   --maincolor:transparent;
+   --changebgcolor:transparent;
+}
+h1 {
+   font-family:Calibri;
+   color:aliceblue;
+   font-size: 35px;
+   display: grid;
+   place-items: center;
+
+ }
+ .pro_profile{ /* this is for centering the profile cardbox */
+   display:grid;
+   place-items: center;
+ }
+.profile{
+   border:7px solid var(--maincolor);
+   width: 500px;
+   border-radius: 60px;
+   padding: 15px;
+   display: grid;
+   place-items: center;
+}
+.image1{
+   background-color: var(--maincolor);
+   padding:7px;
+   border-radius: 120px;
+}
+h2{font-family:Calibri;
+   color:aliceblue;
+   font-size: 35px;
+}
+.Media{
+   margin: 10px;
+   padding: 7px;
+   width: 420px;
+   border-radius: 55px;
+   background-color:var(--maincolor) ;
+   place-items: center;
+}
+.you{
+   margin:6px;
+}
+body{
+   margin:0;
+   padding:0;
+   background: radial-gradient(circle,  rgb(4, 32, 47) 50%,rgb(11, 19, 50) 100%);
+}
+.btnposition{
+   position:absolute;
+   top:1%;
+   right:5%;
+}
+.changecolor_btn{
+   width: 74px;
+   height: 60px;
+   font-family: Calibri;
+   font-size: 20px;
+   font-weight: bold;
+   color: white;
+   border-radius: 15px;
+   background: var(--changebgcolor);
+   border: 0ch;
+}
+canvas{
+   position:absolute;
+   top:0%;
+   left:0%;
+   right:0%;
+   bottom:0%;
+   opacity: 70%;
+   z-index:-1;
+}

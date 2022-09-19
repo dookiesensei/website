@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>this is my website, welcome</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="function.js"></script>
+    <h1>Very Cool Website, welcome</h1>
+    <div class="btnposition">
+        <button class="changecolor_btn" onmouseover="mouseover()" onmouseout="mouseout()" onclick="btn1_click()">Change Color</button>
+    </div>
+
+    <!--This is the profile box-->
+    <div class="pro_profile">
+        <div class="profile">
+            <img class="image1" src="./profile.png" width="190" height="190">
+            <h2>Kang EangChheang</h2>
+            <div class="Media">
+                <a class='you' href="https://www.youtube.com/channel/UCWI8cy_J56hb1E2BR-ZqBtQ" target="_blank" rel="noreferrer">
+                    <img src="you.png" alt = "idk" width="100px" height="68px"></img>
+                </a> 
+                <a class='osu' href = "https://osu.ppy.sh/users/11915511" target="_blank" rel="noreferrer">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Osu%21_simplified_logo_%282016%29.svg/2048px-Osu%21_simplified_logo_%282016%29.svg.png" alt = "osu" width="66px" height= "68px"></img>
+                </a>
+                <a class='git' href="https://github.com/dookiesensei" target="_blank" rel="noreferrer">
+                  <img src="https://www.wizcase.com/wp-content/uploads/2022/03/GitHub-Logo.png" alt = "github" width="120px" height = "68px"></img>
+                </a>
+                <a href="https://www.reddit.com/user/DookieSensei" target="_blank" rel="noreferrer">
+                    <img src="https://cdn-icons-png.flaticon.com/512/52/52053.png" alt="reddit"width="60px" height= "70px">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--Profile box ending line-->
+    <canvas id="canvas"></canvas>
+    <!--the script file must be below canvas tag for it to work-->
+    <script src="script.js"></script>
+</body>
+</html>
